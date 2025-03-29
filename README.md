@@ -174,7 +174,7 @@ class Program
 
         // Query with filter and fields (age > 25, select only 'name' field)
         var filteredFieldsResult = usersDocument.Query(
-            filter: item => (int)item["age"] > 25,
+            filter: item => (int)item.Data["age"] > 25,
             fields: new List<string> { "name" }
         );
     }
