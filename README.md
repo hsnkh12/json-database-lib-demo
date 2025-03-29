@@ -1,5 +1,5 @@
 ﻿
-#JSONDatabaseManager 
+# JSONDatabaseManager 
 
 JSONDatabaseManager is a simple Object-Relational Mapping (ORM) library that allows for easy manipulation of JSON-based data documents. It supports common database operations like `Insert`, `Update`, `Delete`, `Commit`, and query-like functionality, all without the need for a relational database system.
 
