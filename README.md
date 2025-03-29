@@ -1,7 +1,7 @@
 ﻿
-# JsonORM
+#JSONDatabaseManager 
 
-JsonORM is a simple Object-Relational Mapping (ORM) library that allows for easy manipulation of JSON-based data documents. It supports common database operations like `Insert`, `Update`, `Delete`, `Commit`, and query-like functionality, all without the need for a relational database system.
+JSONDatabaseManager is a simple Object-Relational Mapping (ORM) library that allows for easy manipulation of JSON-based data documents. It supports common database operations like `Insert`, `Update`, `Delete`, `Commit`, and query-like functionality, all without the need for a relational database system.
 
 ## Features
 
@@ -18,7 +18,7 @@ JsonORM is a simple Object-Relational Mapping (ORM) library that allows for easy
    If you're planning to use this library in your own project, you can clone the repository using Git:
 
    ```bash
-   git clone https://github.com/yourusername/JsonORM.git
+   git clone https://github.com/yourusername/JSONDatabaseManager.git
    ```
 
 2. **Install Dependencies**:
@@ -54,7 +54,7 @@ await db.SyncFromDiskAsync();
 
 ### Working with Documents
 
-Documents in `JsonORM` are analogous to tables in traditional databases. Each document is represented by a `Document` object, and you can perform operations like Insert, Update, and Delete on it.
+Documents in `JSONDatabaseManager` are analogous to tables in traditional databases. Each document is represented by a `Document` object, and you can perform operations like Insert, Update, and Delete on it.
 
 #### Insert Data
 
@@ -123,13 +123,13 @@ var filteredFieldsResult = usersDocument.Query(
 
 ### Example Workflow
 
-Here's a complete example of working with the `JsonORM` library:
+Here's a complete example of working with the `JSONDatabaseManager` library:
 
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using JsonORM.Core;
+using JSONDatabaseManager.Core;
 
 class Program
 {
@@ -183,7 +183,7 @@ class Program
 
 ## Running Tests
 
-To run the unit tests for the `JsonORM` library, use the following command in the root directory of the project:
+To run the unit tests for the `JSONDatabaseManager` library, use the following command in the root directory of the project:
 
 ```bash
 dotnet test
