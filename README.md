@@ -142,7 +142,7 @@ class Program
         JsonDatabase db = new JsonDatabase(dbName, dbPassword, volumePath);
 
         // Synchronize database with the disk
-        await db.SyncFromDiskAsync();
+        await db.InitDiskAsync();
 
         // Get the 'Users' document
         var usersDocument = db.GetDocument("Users");
