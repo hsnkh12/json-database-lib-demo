@@ -138,7 +138,7 @@ class Program
         // Create a new database
         string dbName = "TestDB";
         string dbPassword = "SecurePass123";
-        var volumePath = "C:\path\to\your\db\folder\";
+        var volumePath = @"C:\path\to\your\db\folder\";
         JsonDatabase db = new JsonDatabase(dbName, dbPassword, volumePath);
 
         // Synchronize database with the disk
