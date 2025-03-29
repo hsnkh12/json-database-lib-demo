@@ -37,7 +37,7 @@ namespace JSONDatabaseManager.Tests
         public void TestUpdate()
         {
             // Arrange
-            var document = new Document("Users", "C:\\Users\\h.abdallah\\RiderProjects\\JsonORM\\JSONDatabaseManager\\volume\\");
+            var document = new Document("Users", "path/to/document");
             var data = new Dictionary<string, object>
             {
                 { "name", "John Doe" },
