@@ -143,6 +143,7 @@ class Program
 
         // Synchronize database with the disk
         await db.InitDiskAsync();
+        await db.CreateDocument("Users");
 
         // Get the 'Users' document
         var usersDocument = db.GetDocument("Users");
